@@ -43,10 +43,12 @@ For lower Mongoid versions try:
 
     require 'duration/mongoid'
 
+```
     class MyModel
       include Mongoid::Document
       field :duration, type => Duration
     end
+```
 
 ### Dependencies
 The current version of this gem runs only on Ruby Versions >= 1.9.3. 
